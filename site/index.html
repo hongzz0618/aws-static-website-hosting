@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AWS Static Website Demo">
+    <title>Static Website Demo</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>Static Website Demo</h1>
+        </div>
+    </header>
+
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h2>Fast, Secure & Simple</h2>
+            <p>Hosted on AWS S3 + CloudFront using best practices.</p>
+            <a href="#features" class="btn">Explore</a>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section id="features">
+        <div class="container">
+            <h2>Features</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>High Performance</h3>
+                    <p>CloudFront CDN ensures fast load times worldwide.</p>
+                </div>
+                <div class="card">
+                    <h3>Secure</h3>
+                    <p>HTTPS and AWS best practices keep your site safe.</p>
+                </div>
+                <div class="card">
+                    <h3>Easy to Maintain</h3>
+                    <p>Static content in S3 makes updates simple and cheap.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+        <div class="container">
+            <h2>About This Project</h2>
+            <p>This is a demo architecture built with AWS services.
+                It demonstrates how to host a static website using S3,
+                deliver content securely through CloudFront,
+                and manage DNS with Route 53.</p>
+        </div>
+    </section>
+
+    <!-- Architecture -->
+    <section id="architecture">
+        <div class="container">
+            <h2>Architecture</h2>
+            <img src="./assets/aws-static-website.png" alt="Architecture Diagram" class="diagram">
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>Made with ❤️ using AWS services</p>
+        </div>
+    </footer>
+</body>
+
+</html>
